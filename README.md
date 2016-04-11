@@ -2,6 +2,10 @@
 
 > Determines whether a string ends with the characters of another string.
 
+> ES2015 [String#endsWith()](http://www.ecma-international.org/ecma-262/6.0/#sec-string.prototype.endswith) ponyfill.
+
+> Ponyfill: A polyfill that doesn't overwrite the native method.
+
 
 [![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/end-with/blob/master/LICENSE)
 
