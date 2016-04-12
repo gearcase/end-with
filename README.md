@@ -1,4 +1,5 @@
-# end-with
+# end-with <sup>[![Version Badge](http://versionbadg.es/bubkoo/end-with.svg)](https://npmjs.org/package/end-with)</sup>
+
 
 > Determines whether a string ends with the characters of another string.
 
