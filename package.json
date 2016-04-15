@@ -1,6 +1,6 @@
 {
   "name": "end-with",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Determines whether a string ends with the characters of another string.",
   "main": "index.js",
   "scripts": {
@@ -42,12 +42,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bubkoo/end-with.git"
+    "url": "git+https://github.com/gearcase/end-with.git"
   },
   "bugs": {
-    "url": "https://github.com/bubkoo/end-with/issues"
+    "url": "https://github.com/gearcase/end-with/issues"
   },
-  "homepage": "https://github.com/bubkoo/end-with#readme",
+  "homepage": "https://github.com/gearcase/end-with#readme",
   "devDependencies": {
     "jshint": "^2.9.1",
     "chai": "^3.5.0",
