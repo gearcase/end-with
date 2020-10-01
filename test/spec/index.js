@@ -41,4 +41,20 @@ describe('start-with: ', function () {
   it('endWith(\'abcde\', \'bc\') => false', function () {
     expect(endWith('abcde', 'bc')).to.equal(false);
   });
+
+  it('endWith(\'abcde\', \'bc\', 3) => false', function () {
+    expect(endWith('abcde', 'bc', 3)).to.equal(true);
+  });
+
+  it('endWith(\'abcde\', \'bc\', 2) => false', function () {
+    expect(endWith('abcde', 'bc', 2)).to.equal(false);
+  });
+
+  it('endWith(\'abcde\', \'bc\', 5) => false', function () {
+    expect(endWith('abcde', 'bc', 5)).to.equal(false);
+  });
+
+  it('endWith(\'abcde\', \'bc\', 6) => false', function () {
+    expect(endWith('abcde', 'bc', 6)).to.equal(false);
+  });
 });
