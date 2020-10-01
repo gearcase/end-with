@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function (str, suffix) {
+module.exports = function (str, suffix, len) {
 
   if (typeof suffix === 'undefined' || suffix === null) {
     return false;
@@ -9,8 +9,12 @@ module.exports = function (str, suffix) {
   str    = String(str);
   suffix = String(suffix);
 
+  if(len === undefined || len > str.length) {
+    len = str.length;
+  }
+
   var i = suffix.length;
-  var l = str.length - i;
+  var l = len - i;
 
   while (i--) {
     if (suffix.charAt(i) !== str.charAt(l + i)) {
